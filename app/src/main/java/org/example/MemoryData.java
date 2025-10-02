@@ -21,7 +21,7 @@ public class MemoryData {
         @Override
         public String toString() {
             return String.format(
-                "Ramslot: %s, Capacity: %d, Clockspeed: %d, Manufacturer: %s, Type: %s",
+                "Ramslot: %s, Capacity: %d Gb, Clockspeed: %d MHz, Manufacturer: %s, Type: %s",
                 RAM_BankLabel, RAM_Capacity / (1024 * 1024 * 1024), RAM_ClockSpeed / 1000000, RAM_Manufacturer, RAM_Type
             );
         }
