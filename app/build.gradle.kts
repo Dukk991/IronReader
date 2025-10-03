@@ -27,6 +27,10 @@ dependencies {
     //OSHI
     //https://mvnrepository.com/artifact/com.github.oshi/oshi-core
     implementation("com.github.oshi:oshi-core:6.8.3")
+
+    //Robot framework
+    //For testing
+    implementation ("org.robotframework:jrobotremoteserver:4.1.1")
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
