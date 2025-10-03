@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.12.10 on win32)" generated="2025-10-03T15:17:07.326758" rpa="false" schemaversion="5">
+<suite id="s1" name="Tests" source="C:\HWreader\app\src\test\java\org\example\Tests.robot">
+<test id="s1-t1" name="Check RAM Slots" line="5">
+<kw name="Remote.Get Processed Memory Data As Strings">
+<msg time="2025-10-03T15:17:07.426065" level="FAIL">No keyword with name 'Remote.Get Processed Memory Data As Strings' found. Did you mean:
+    Remote.Get Processed Data As Strings</msg>
+<var>${rams}</var>
+<status status="FAIL" start="2025-10-03T15:17:07.426065" elapsed="0.000000">No keyword with name 'Remote.Get Processed Memory Data As Strings' found. Did you mean:
+    Remote.Get Processed Data As Strings</status>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<arg>${rams}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2025-10-03T15:17:07.426065" elapsed="0.000000"/>
+</kw>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${rams}</arg>
+<arg>DDR4</arg>
+<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
+<status status="NOT RUN" start="2025-10-03T15:17:07.427065" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2025-10-03T15:17:07.425065" elapsed="0.002000">No keyword with name 'Remote.Get Processed Memory Data As Strings' found. Did you mean:
+    Remote.Get Processed Data As Strings</status>
+</test>
+<status status="FAIL" start="2025-10-03T15:17:07.328759" elapsed="0.098306"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Tests" id="s1" pass="0" fail="1" skip="0">Tests</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
