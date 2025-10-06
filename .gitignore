@@ -4,6 +4,6 @@
 # Ignore Gradle build output directory
 build
 
-app/src/main/test/java/org/example/log.html
-app/src/main/test/java/org/example/output.xml
-app/src/main/test/java/org/example/report.html
+app/src/test/java/org/example/log.html
+app/src/test/java/org/example/output.xml
+app/src/test/java/org/example/report.html
